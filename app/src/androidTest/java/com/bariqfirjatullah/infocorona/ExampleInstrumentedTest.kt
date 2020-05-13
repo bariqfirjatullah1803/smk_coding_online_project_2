@@ -1,4 +1,4 @@
-package com.bariqfirjatullah.smk_coding_online_project_2
+package com.bariqfirjatullah.infocorona
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.bariqfirjatullah.smk_coding_online_project_2", appContext.packageName)
+        assertEquals("com.bariqfirjatullah.infocorona", appContext.packageName)
     }
 }

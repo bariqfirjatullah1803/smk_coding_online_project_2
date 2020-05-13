@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="smk_coding_online_project_2/app" />
-      <module fileurl="file://$PROJECT_DIR$/smk_coding_online_project_2.iml" filepath="$PROJECT_DIR$/smk_coding_online_project_2.iml" group="smk_coding_online_project_2" />
+      <module fileurl="file://$PROJECT_DIR$/Info Corona.iml" filepath="$PROJECT_DIR$/Info Corona.iml" group="Info Corona" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Info Corona/app" />
     </modules>
   </component>
 </project>

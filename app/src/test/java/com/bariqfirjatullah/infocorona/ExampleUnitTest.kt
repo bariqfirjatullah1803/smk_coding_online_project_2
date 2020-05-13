@@ -1,4 +1,4 @@
-package com.bariqfirjatullah.smk_coding_online_project_2
+package com.bariqfirjatullah.infocorona
 
 import org.junit.Test
 
