@@ -12,11 +12,11 @@ class ViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapte
 
     override fun createFragment(position: Int): Fragment {
         when (position) {
-            0 -> { return MyFriendsFragment() }
-            1 -> { return GithubFragment() }
+            0 -> { return DashboardFragment() }
+            1 -> { return MyFriendsFragment() }
             2 -> { return ProfileFragment() }
             else -> {
-                return GithubFragment()
+                return DashboardFragment()
             }
         }
     }
