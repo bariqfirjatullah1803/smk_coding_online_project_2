@@ -13,7 +13,7 @@ class ViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapte
     override fun createFragment(position: Int): Fragment {
         when (position) {
             0 -> { return DashboardFragment() }
-            1 -> { return MyFriendsFragment() }
+            1 -> { return ListFragment() }
             2 -> { return ProfileFragment() }
             else -> {
                 return DashboardFragment()
