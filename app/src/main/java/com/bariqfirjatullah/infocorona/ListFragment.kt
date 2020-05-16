@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.annotation.Nullable
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bariqfirjatullah.infocorona.data.apiRequest
-import com.bariqfirjatullah.infocorona.data.CoronaService
+import com.bariqfirjatullah.infocorona.data.ProvinsiService
 import com.bariqfirjatullah.infocorona.data.httpClient
 import kotlinx.android.synthetic.main.fragment_list.*
 import com.bariqfirjatullah.infocorona.util.dismissLoading
@@ -27,7 +27,7 @@ class ListFragment : Fragment() {
     private fun callApiGetProvinsiIndonesiaData(){
         showLoading(context!!, swipeRefreshLayout)
         val httpClient = httpClient()
-        val apiRequest = apiRequest<CoronaService>(httpClient)
+        val apiRequest = apiRequest<ProvinsiService>(httpClient)
 
         val call = apiRequest.getProvinsi()
         call.enqueue(object: Callback<List<ProvinsiIndonesiaDataItem>>{
@@ -77,6 +77,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, @Nullable savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        callApiGetProvinsiIndonesiaData()
     }
 
     override fun onDestroy() {
