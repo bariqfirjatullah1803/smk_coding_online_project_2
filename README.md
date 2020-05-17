@@ -29,6 +29,9 @@ Documentation: https://github.com/mathdroid/covid-19-api
 https://api.kawalcorona.com/
 https://github.com/public-apis/public-apis
 
+Link Aplikasi : 
+https://drive.google.com/file/d/10eJlt5bWgRji0XRcUX_sY3nxKqp3VN7y/view?usp=drivesdk
+
 Screenshot:
 -Halaman Aboutme
 ![Screenshot_20200517-213529](https://user-images.githubusercontent.com/62026995/82151934-6e328400-9888-11ea-9d07-fedebd1f4207.jpg)
