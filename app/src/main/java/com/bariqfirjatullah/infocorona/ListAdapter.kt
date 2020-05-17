@@ -25,7 +25,6 @@ class ListAdapter(private val context: Context, private val items: List<Provinsi
             txtPositif.text = item.attributes.kasusPosi.toString()
             txtSembuh.text = item.attributes.kasusSemb.toString()
 
-            containerView.setOnClickListener{listener(item)}
         }
     }
 }

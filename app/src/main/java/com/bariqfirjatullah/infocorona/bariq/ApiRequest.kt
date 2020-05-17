@@ -1,4 +1,4 @@
-package com.bariqfirjatullah.infocorona.data
+package com.bariqfirjatullah.infocorona.bariq
 
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
@@ -24,12 +24,9 @@ inline fun <reified T>apiRequest(okHttpClient: OkHttpClient):T{
     val gson = GsonBuilder().create()
 
     val retrofit = Retrofit.Builder()
-        .baseUrl("https://api.kawalcorona.com")
+        .baseUrl("https://bariqfirjatullah1803.000webhostapp.com/index.php/")
         .client(okHttpClient)
         .addConverterFactory(GsonConverterFactory.create(gson))
         .build()
     return retrofit.create(T::class.java)
-}
-
-class RetrofitRequest {
 }

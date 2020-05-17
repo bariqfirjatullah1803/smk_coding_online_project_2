@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface ProvinsiService {
 
-    @GET("indonesia/provinsi")
+    @GET("/indonesia/provinsi")
     fun getProvinsi():Call<List<ProvinsiIndonesiaDataItem>>
 }

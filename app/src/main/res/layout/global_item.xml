@@ -25,8 +25,8 @@
                     android:gravity="center_horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/txtProvinsi"
-                    android:text="Provinsi"
+                    android:id="@+id/txtCountry"
+                    android:text="Country"
                     android:textSize="25sp"/>
             </LinearLayout>
             <LinearLayout
@@ -38,33 +38,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Kasus Meninggal"
+                    android:text="Confirmed"
                     android:textSize="18sp"/>
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:layout_weight="2"
-                    android:id="@+id/txtMeninggal"
-                    android:text="Value Meninggal"
-                    android:textSize="18sp"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:text="Kasus Positif"
-                    android:textSize="18sp"/>
-                <TextView
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:id="@+id/txtPositif"
-                    android:layout_weight="2"
-                    android:text="Value Positif"
+                    android:id="@+id/txtConfirmed"
+                    android:text="Confirmed"
                     android:textSize="18sp"/>
             </LinearLayout>
             <LinearLayout
@@ -76,14 +57,33 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Kasus Sembuh"
+                    android:text="Deaths"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/txtDeaths"
+                    android:layout_weight="2"
+                    android:text="Deaths"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Recovered"
                     android:textSize="18sp"/>
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:layout_weight="2"
-                    android:id="@+id/txtSembuh"
-                    android:text="Value Sembuh"
+                    android:id="@+id/txtRecovered"
+                    android:text="Recovered"
                     android:textSize="18sp"/>
             </LinearLayout>
         </LinearLayout>
