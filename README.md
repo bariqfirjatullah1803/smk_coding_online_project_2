@@ -30,7 +30,7 @@ https://api.kawalcorona.com/
 https://github.com/public-apis/public-apis
 
 Link Aplikasi : 
-https://drive.google.com/file/d/10eJlt5bWgRji0XRcUX_sY3nxKqp3VN7y/view?usp=drivesdk
+https://drive.google.com/open?id=1n8VtlDHldpYv3j68-UDr7MKlH4_PT4Cb
 
 Screenshot:
 -Halaman Aboutme
