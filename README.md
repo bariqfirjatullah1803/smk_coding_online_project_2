@@ -28,3 +28,15 @@ https://covid19.mathdro.id/api
 Documentation: https://github.com/mathdroid/covid-19-api
 https://api.kawalcorona.com/
 https://github.com/public-apis/public-apis
+
+Screenshot:
+-Halaman Aboutme
+![Screenshot_20200517-213529](https://user-images.githubusercontent.com/62026995/82151934-6e328400-9888-11ea-9d07-fedebd1f4207.jpg)
+-Halaman Artikel
+![Screenshot_20200517-213522](https://user-images.githubusercontent.com/62026995/82151937-71c60b00-9888-11ea-9a4b-21004e4a232f.jpg)
+-Halaman global info
+![Screenshot_20200517-213441](https://user-images.githubusercontent.com/62026995/82151949-80142700-9888-11ea-9139-841573e6d083.jpg)
+-Halaman Provinsi info
+![Screenshot_20200517-213432](https://user-images.githubusercontent.com/62026995/82151952-83a7ae00-9888-11ea-9b5f-c7b845716799.jpg)
+- Halaman dashboard
+![Screenshot_20200517-213422](https://user-images.githubusercontent.com/62026995/82151957-860a0800-9888-11ea-91c3-067f9b7b8128.jpg)
